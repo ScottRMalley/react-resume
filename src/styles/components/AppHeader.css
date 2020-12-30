@@ -1,0 +1,25 @@
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: 10rem solid var(--quaternary);
+    padding: 0.5rem;
+    font-size: large;
+    color: var(--text-dark);
+    border: 10rem;
+}
+
+.selected {
+    border-width: 1rem;
+}
+
+a {
+    color: var(--secondary);
+}

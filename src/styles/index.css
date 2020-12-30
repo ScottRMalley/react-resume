@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+    --background: #88BDBC;
+    --background-start: #B2DADA;
+    --text-primary: #EFFCEA;
+    --text-dark: #112D32;
+    --secondary: #254E58;
+    --tertiary: #4F4A41;
+    --quaternary: #6E6658;
+    --background-gradient: radial-gradient(circle, var(--background-start) 0%, var(--background) 100%);
+}
+
+@font-face {
+    font-family: 'Signika-Light';
+    src: local('Signika-Light'), url(../fonts/Signika/static/Signika-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Signika-Bold';
+    src: local('Signika-Bold'), url(../fonts/Signika/static/Signika-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Signika-SemiBold';
+    src: local('Signika-SemiBold'), url(../fonts/Signika/static/Signika-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Signika-Medium';
+    src: local('Signika-Medium'), url(../fonts/Signika/static/Signika-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Signika-Regular';
+    src: local('Signika-Regular'), url(../fonts/Signika/static/Signika-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxygen-Light';
+    src: local('Oxygen-Light'), url(../fonts/Oxygen/Oxygen-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxygen-Bold';
+    src: local('Oxygen-Bold'), url(../fonts/Oxygen/Oxygen-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxygen-Regular';
+    src: local('Oxygen-Regular'), url(../fonts/Oxygen/Oxygen-Regular.ttf) format('truetype');
+}
