@@ -9,15 +9,15 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    border: 10rem solid var(--quaternary);
     padding: 0.5rem;
-    font-size: large;
+    margin: 1rem;
+    font-size: 2rem;
     color: var(--text-dark);
-    border: 10rem;
 }
 
 .selected {
-    border-width: 1rem;
+    border-bottom: 0.1rem solid var(--quaternary);
+    border-left: 0.1rem solid var(--quaternary);
 }
 
 a {

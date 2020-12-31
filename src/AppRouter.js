@@ -10,7 +10,6 @@ import About from './pages/About';
 import Education from './pages/Education';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
-import './styles/AppRouter.css'
 
 export default function AppRouter({controls}) {
   return (
