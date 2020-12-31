@@ -12,36 +12,10 @@
     padding: 0.5rem;
     margin: 1rem;
     font-size: 2rem;
-    color: var(--text-dark);
+    font-family: Signika-Light, sans-serif;
+    color: var(--text-primary);
 }
 
 .selected {
     border-bottom: 0.1rem solid var(--quaternary);
-    border-left: 0.1rem solid var(--quaternary);
-}
-
-a {
-    color: var(--secondary);
-}
-
-.self-portrait {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 5rem;
-    overflow: hidden;
-    margin: 1rem;
-    border: var(--quaternary) solid 0.2rem;
-}
-
-.self-portrait-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-img {
-    width: 100%;
-    object-fit: contain;
-    object-position: 0 -2rem;
 }

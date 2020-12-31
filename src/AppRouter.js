@@ -14,7 +14,9 @@ import Projects from './pages/Projects';
 const variants = {
   loading: {
     height: 0,
-    background: 'var(--text-primary)'
+    background: 'var(--text-dark)',
+    overflow: 'hidden',
+    maxHeight: '93%',
   },
   done: {
     height: '93%',

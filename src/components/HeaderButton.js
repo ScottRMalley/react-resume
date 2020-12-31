@@ -8,7 +8,7 @@ export default function HeaderButton({to, title}) {
   const selected = location.pathname === to;
   return (
       <div className={selected ? 'header-button selected' : 'header-button'} onClick={() => history.push(to)}>
-        {title}
+        {title.toUpperCase()}
       </div>
   )
 }
