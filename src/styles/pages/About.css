@@ -5,6 +5,10 @@
     overflow: hidden;
     margin: 1rem;
     border: var(--quaternary) solid 0.1rem;
+    background-image: url('../../resources/images/self_portrait.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .page-separator {
