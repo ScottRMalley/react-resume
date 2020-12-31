@@ -5,7 +5,7 @@ import HeaderButton from './HeaderButton';
 export default function AppHeader() {
     return (
         <nav>
-            <div className="text">
+            <div className="header-text">
                 <HeaderButton to="/" title="About"/>
                 <HeaderButton to="/education" title="Education"/>
                 <HeaderButton to="/experience" title="Experience"/>
