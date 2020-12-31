@@ -11,10 +11,22 @@ import Education from './pages/Education';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 
-export default function AppRouter({controls}) {
+const variants = {
+  loading: {
+    height: 0,
+    background: 'var(--text-primary)'
+  },
+  done: {
+    height: '93%',
+    transition: {
+      duration: 1,
+    }
+  },
+}
+export default function AppRouter({loading}) {
   return (
       <BrowserRouter>
-        <motion.div initial={{height: 0, background: 'var(--text-primary)'}} animate={controls}>
+        <motion.div initial="loading" animate={loading ? 'loading' : 'done'} variants={variants}>
           <AppHeader/>
           <Switch>
             <Route path="/education">

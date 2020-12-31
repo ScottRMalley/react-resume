@@ -23,3 +23,25 @@
 a {
     color: var(--secondary);
 }
+
+.self-portrait {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    overflow: hidden;
+    margin: 1rem;
+    border: var(--quaternary) solid 0.2rem;
+}
+
+.self-portrait-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    object-position: 0 -2rem;
+}

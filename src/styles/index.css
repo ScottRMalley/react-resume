@@ -25,40 +25,40 @@ code {
 
 @font-face {
     font-family: 'Signika-Light';
-    src: local('Signika-Light'), url(../fonts/Signika/static/Signika-Light.ttf) format('truetype');
+    src: local('Signika-Light'), url(../resources/fonts/Signika/static/Signika-Light.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Signika-Bold';
-    src: local('Signika-Bold'), url(../fonts/Signika/static/Signika-Bold.ttf) format('truetype');
+    src: local('Signika-Bold'), url(../resources/fonts/Signika/static/Signika-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Signika-SemiBold';
-    src: local('Signika-SemiBold'), url(../fonts/Signika/static/Signika-SemiBold.ttf) format('truetype');
+    src: local('Signika-SemiBold'), url(../resources/fonts/Signika/static/Signika-SemiBold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Signika-Medium';
-    src: local('Signika-Medium'), url(../fonts/Signika/static/Signika-Medium.ttf) format('truetype');
+    src: local('Signika-Medium'), url(../resources/fonts/Signika/static/Signika-Medium.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Signika-Regular';
-    src: local('Signika-Regular'), url(../fonts/Signika/static/Signika-Regular.ttf) format('truetype');
+    src: local('Signika-Regular'), url(../resources/fonts/Signika/static/Signika-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Oxygen-Light';
-    src: local('Oxygen-Light'), url(../fonts/Oxygen/Oxygen-Light.ttf) format('truetype');
+    src: local('Oxygen-Light'), url(../resources/fonts/Oxygen/Oxygen-Light.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Oxygen-Bold';
-    src: local('Oxygen-Bold'), url(../fonts/Oxygen/Oxygen-Bold.ttf) format('truetype');
+    src: local('Oxygen-Bold'), url(../resources/fonts/Oxygen/Oxygen-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Oxygen-Regular';
-    src: local('Oxygen-Regular'), url(../fonts/Oxygen/Oxygen-Regular.ttf) format('truetype');
+    src: local('Oxygen-Regular'), url(../resources/fonts/Oxygen/Oxygen-Regular.ttf) format('truetype');
 }

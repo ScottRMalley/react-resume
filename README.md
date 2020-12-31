@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# React Resume
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a template for creating a simple resume website using React JS. **This is a work in progress. Not 
+all browsers (eg. mobile) will currently render the resume site perfectly.**
+
+## Customization
+
+The current app is customized for my resume (the creator), however I have attempted to make it as customizable as 
+possible without actually having to dive into the Javascript code.
+#### Colors
+To customize the colors, simply change the following presets in `src/styles/index.css`:
+```css
+:root {
+    --background: #88BDBC;
+    --background-start: #B2DADA;
+    --text-primary: #EFFCEA;
+    --text-dark: #112D32;
+    --secondary: #254E58;
+    --tertiary: #4F4A41;
+    --quaternary: #6E6658;
+    --background-gradient: radial-gradient(circle, var(--background-start) 0%, var(--background) 100%);
+}
+```
+
+#### Text
+All text throughout the app has been consolidated into the `src/Strings.js` file. Here you can edit the name, 
+experience or about descriptions etc.
+
+To change the title of the app to "Resume | <name>", edit line 27 of `public/index.html`
 
 ## Available Scripts
 
