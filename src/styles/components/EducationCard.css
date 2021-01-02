@@ -1,9 +1,4 @@
 .education-card-outer {
-    display: flex;
-    flex-direction: row;
-    padding-left: 1rem;
-    align-items: center;
-    justify-content: flex-start;
     border-left: var(--background) solid 0.2rem;
     border-bottom: var(--background) solid 0.1rem;
     border-top: var(--background) solid 0.1rem;
@@ -11,6 +6,4 @@
     font-family: Signika-Regular, sans-serif;
     color: var(--text-primary);
     background: var(--text-dark);
-    width: 100%;
-    margin-left: 0.3rem;
 }

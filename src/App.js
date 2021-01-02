@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import AppRouter from './AppRouter';
 import Splash from './pages/Splash';
 import './styles/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
