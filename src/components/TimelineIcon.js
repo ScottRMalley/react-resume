@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function TimelineIcon({color, weight}) {
   return (
-
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 500">
         <g>
           <circle cx="28" cy="250" r="26" fill="none" strokeWidth={weight} stroke={color}/>
