@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   BrowserRouter,
   Switch,
   Route
 } from 'react-router-dom';
-import {motion} from 'framer-motion';
+import {motion, useAnimation} from 'framer-motion';
 import AppHeader from './components/AppHeader';
 import About from './pages/About';
 import Education from './pages/Education';
@@ -21,15 +21,24 @@ const variants = {
   done: {
     height: '93%',
     transition: {
+      delayChildren: 10,
       duration: 1,
     }
   },
 }
 export default function AppRouter({loading}) {
+  const controls = useAnimation();
+  const [stillLoading, setStillLoading] = useState(true);
+  useEffect(() => {
+    if(!loading){
+      controls.start('done')
+          .then(() => setStillLoading(false))
+    }
+  }, [loading])
   return (
       <BrowserRouter>
-        <motion.div initial="loading" animate={loading ? 'loading' : 'done'} variants={variants}>
-          <AppHeader/>
+        <motion.div initial="loading" animate={controls} variants={variants}>
+          <AppHeader loading={stillLoading}/>
           <Switch>
             <Route path="/education">
               <Education/>

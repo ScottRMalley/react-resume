@@ -21,10 +21,10 @@ const variants = {
         }
     }
 }
-export default function HeaderButton({to, title}) {
+export default function HeaderButton({to, title, loading}) {
     const history = useHistory();
     const location = useLocation();
-    const selected = location.pathname === to;
+    const selected = loading ? false : location.pathname === to;
     return (
         <motion.div className='header-button'
                     onClick={() => history.push(to)}

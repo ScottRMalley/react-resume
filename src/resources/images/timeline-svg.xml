@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate"
+     viewBox="0 0 249.5 706.999" width="249.5pt" height="706.999pt">
+    <defs>
+        <clipPath id="_clipPath_gePM3AngkaW6IgnAouFV4AE8WI8T4tYx">
+            <rect width="249.5" height="706.999"/>
+        </clipPath>
+    </defs>
+    <g clip-path="url(#_clipPath_gePM3AngkaW6IgnAouFV4AE8WI8T4tYx)">
+        <mask id="_mask_C8l96B5cz2qywB6bmNYtGAZg9X938DE6">
+            <circle vector-effect="non-scaling-stroke" cx="26" cy="353.4994338218752" r="26" fill="white"
+                    stroke="none"/>
+        </mask>
+        <circle vector-effect="non-scaling-stroke" cx="26" cy="353.4994338218752" r="26" fill="none"/>
+        <circle vector-effect="non-scaling-stroke" cx="26" cy="353.4994338218752" r="26" fill="none"
+                mask="url(#_mask_C8l96B5cz2qywB6bmNYtGAZg9X938DE6)" stroke-width="2" stroke="rgb(0,0,0)"
+                stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <line x1="26" y1="399.499" x2="26" y2="706.499" vector-effect="non-scaling-stroke" stroke-width="1"
+              stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <line x1="26" y1="0.499" x2="26" y2="307.499" vector-effect="non-scaling-stroke" stroke-width="1"
+              stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+        <line x1="72" y1="353.499" x2="249" y2="353.499" vector-effect="non-scaling-stroke" stroke-width="1"
+              stroke="rgb(0,0,0)" stroke-linejoin="miter" stroke-linecap="square" stroke-miterlimit="3"/>
+    </g>
+</svg>
