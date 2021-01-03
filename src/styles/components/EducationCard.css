@@ -1,8 +1,4 @@
 .education-card-outer {
-    border-left: var(--background) solid 0.2rem;
-    border-bottom: var(--background) solid 0.1rem;
-    border-top: var(--background) solid 0.1rem;
-    border-right: var(--background) solid 0.1rem;
     font-family: Signika-Regular, sans-serif;
     color: var(--text-primary);
     background: var(--text-dark);

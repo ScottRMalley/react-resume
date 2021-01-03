@@ -12,10 +12,6 @@
 }
 
 .page-separator {
-    display: flex;
-    width: 50%;
-    flex: 1;
-    padding-top: 3rem;
     border-bottom: var(--quaternary) solid 0.1rem;
 }
 

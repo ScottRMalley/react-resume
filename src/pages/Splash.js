@@ -10,6 +10,7 @@ const containerVariants = {
   },
   done: {
     height: '7%',
+    minHeight: '5rem',
     transition: {
       duration: 1,
     }
