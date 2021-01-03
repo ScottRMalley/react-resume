@@ -10,7 +10,7 @@ import About from './pages/About';
 import Education from './pages/Education';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
-import {Container, Row} from 'react-bootstrap';
+import {Col, Container, Row} from 'react-bootstrap';
 
 const variants = {
     loading: {
@@ -39,9 +39,9 @@ export default function AppRouter({loading}) {
     return (
         <BrowserRouter>
             <motion.div initial="loading" animate={controls} variants={variants}>
-                <Container>
-                    <AppHeader loading={stillLoading}/>
-                    <Row>
+                <AppHeader loading={stillLoading}/>
+                <Row>
+                    <Col lg={12}>
                         <Switch>
                             <Route path="/education">
                                 <Education/>
@@ -56,8 +56,8 @@ export default function AppRouter({loading}) {
                                 <About/>
                             </Route>
                         </Switch>
-                    </Row>
-                </Container>
+                    </Col>
+                </Row>
             </motion.div>
         </BrowserRouter>
     )

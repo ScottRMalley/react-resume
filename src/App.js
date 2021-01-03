@@ -3,6 +3,7 @@ import AppRouter from './AppRouter';
 import Splash from './pages/Splash';
 import './styles/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {Container} from 'react-bootstrap';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -12,9 +13,9 @@ export default function App() {
     }, 2000);
   });
   return (
-      <div className="App">
+      <Container fluid className="App no-gutters">
         <AppRouter loading={loading}/>
         <Splash loading={loading}/>
-      </div>
+      </Container>
   );
 }

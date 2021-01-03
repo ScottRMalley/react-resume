@@ -1,11 +1,11 @@
 import React from 'react';
 import '../styles/components/AppHeader.css';
 import HeaderButton from './HeaderButton';
-import {Row} from 'react-bootstrap';
+import {Col, Row} from 'react-bootstrap';
 
 export default function AppHeader({loading}) {
     return (
-        <Row className="d-flex flex-row align-content-end justify-content-center">
+        <Row className="d-flex flex-row align-content-end justify-content-center no-gutters">
             <HeaderButton loading={loading} to="/" title="About"/>
             <HeaderButton loading={loading} to="/education" title="Education"/>
             <HeaderButton loading={loading} to="/experience" title="Experience"/>

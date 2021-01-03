@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 import EducationCard from '../components/EducationCard';
 import '../styles/pages/Education.css'
 import Strings from '../Strings';
-import {Container, Row} from 'react-bootstrap';
+import {Col, Container, Row} from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import {IoMdSchool} from 'react-icons/io';
 
@@ -22,7 +22,7 @@ export default function Education() {
         });
     }, []);
     return (
-        <Container className="">
+        <Col lg={12}>
                 <Fade duration={1000}>
                     <Row className="d-flex flex-row justify-content-center pb-3 pt-3">
                         <IoMdSchool
@@ -32,6 +32,6 @@ export default function Education() {
                     </Row>
                     {cards}
                 </Fade>
-        </Container>
+        </Col>
     );
 }
