@@ -30,8 +30,7 @@ export default function EducationCard({i, expanded, setExpanded, name, startDate
             onClick={() => setExpanded(isOpen ? false : i)}
             className="education-card-outer pb-1"
         >
-            <Col lg={2}/>
-            <Col lg={8}>
+            <Col lg={12}>
                 <Row>
                     <Col lg={1} className="d-flex flex-column justify-content-center">
                         <motion.div
@@ -95,7 +94,6 @@ export default function EducationCard({i, expanded, setExpanded, name, startDate
                     </Col>
                 </Row>
             </Col>
-            <Col lg={2}/>
         </Row>
     );
 };

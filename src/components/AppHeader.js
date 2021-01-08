@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/components/AppHeader.css';
 import HeaderButton from './HeaderButton';
-import {Col, Row} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
 
 export default function AppHeader({loading}) {
     return (

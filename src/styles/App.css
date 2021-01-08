@@ -3,7 +3,5 @@ body > #root > div {
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
   background: var(--text-dark);
 }

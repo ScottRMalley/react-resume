@@ -21,6 +21,8 @@ code {
     --tertiary: #4F4A41;
     --quaternary: #6E6658;
     --background-gradient: radial-gradient(circle, var(--background-start) 0%, var(--background) 100%);
+    --text-gradient-end: rgba(17, 45, 50, 0);
+    --text-gradient-start: rgba(17, 45, 50, 1);
 }
 
 @font-face {

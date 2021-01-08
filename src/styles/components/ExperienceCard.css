@@ -1,0 +1,21 @@
+.experience-card-outer {
+    width: 100%;
+}
+
+.experience-bullet-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.experience-bullet-container:after {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: linear-gradient(to top,
+    var(--text-gradient-start) 50%,
+    var(--text-gradient-end) 90%
+    );
+    pointer-events: none; /* so the text is still selectable */
+}

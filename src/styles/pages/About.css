@@ -1,10 +1,10 @@
 .self-portrait {
-    width: 10rem;
-    height: 10rem;
+    width: 17rem;
+    height: 17rem;
     border-radius: 50%;
     overflow: hidden;
     margin: 1rem;
-    border: var(--quaternary) solid 0.1rem;
+    border: var(--quaternary) solid 0.5rem;
     background-image: url('../../resources/images/self_portrait.jpeg');
     background-repeat: no-repeat;
     background-position: center;
@@ -16,13 +16,15 @@
 }
 
 .about-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    flex: 12;
     font-family: Signika-Light, sans-serif;
     color: var(--text-primary);
+}
+
+.about-hello {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--quaternary);
 }
 
 .about-tagline {
@@ -32,6 +34,38 @@
     width: 50%;
 }
 
+.about-skill-card {
+    display: flex;
+    flex-direction: row;
+    font-family: Signika-Regular, sans-serif;
+    font-size: 1rem;
+    color: var(--background-start);
+    border: var(--background-start) solid 0.1rem;
+    border-radius: 0.1rem;
+    width: auto;
+    margin: 0.2rem;
+    padding: 0.1rem 0.5rem;
+}
+
 img {
     width: 100%;
 }
+
+a:link {
+    color: var(--text-primary);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-primary);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--quaternary);
+    background-color: transparent;
+    text-decoration: none;
+}
+
