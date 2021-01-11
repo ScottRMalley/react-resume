@@ -137,7 +137,7 @@ const Strings = {
         cards: [
             {
                 name: 'React Résumé',
-                description: 'This resume project, made in ReactJS, and standardized as a template.'
+                description: 'This resume project, made in ReactJS, and standardized as a template.',
                 link: 'https://github.com/ScottRMalley/react-resume'
             }
         ]
