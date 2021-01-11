@@ -138,7 +138,14 @@ const Strings = {
             {
                 name: 'React Résumé',
                 description: 'This resume project, made in ReactJS, and standardized as a template.',
-                link: 'https://github.com/ScottRMalley/react-resume'
+                link: 'https://github.com/ScottRMalley/react-resume',
+                image: '/proj-1.png'
+            },
+            {
+                name: 'Chaotic Mixing Simulation',
+                description: 'A simulation of the Aref blinking vortex flow written in Python.',
+                link: 'https://github.com/ScottRMalley/blinking-vortex-sim',
+                image: '/proj-0.png'
             }
         ]
     }
