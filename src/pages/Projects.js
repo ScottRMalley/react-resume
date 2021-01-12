@@ -8,7 +8,7 @@ import ProjectCard from '../components/ProjectCard';
 export default function Projects(props) {
   return (
       <Row {...props} className="d-flex flex-row justify-content-center align-content-start projects-container">
-        <Col lg={12} style={{minHeight: '45vh'}}>
+        <Col lg={12} style={{minHeight: '45vh', paddingBottom: '2rem'}}>
           <Fade duration={1000}>
             <Row>
               <Col lg={12} className="pt-5 pb-3"
@@ -17,8 +17,9 @@ export default function Projects(props) {
               </Col>
             </Row>
             <Row>
-              {Strings.Projects.cards.map(card => (
+              {Strings.Projects.cards.map((card, ind) => (
                   <ProjectCard
+                      id={`project-card-${ind}`}
                       {...card}
                   />
               ))}
