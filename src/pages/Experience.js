@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Col, Row} from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import '../styles/pages/Experience.css';
@@ -7,6 +7,11 @@ import ExperienceCard from '../components/ExperienceCard';
 
 export default function Experience(props) {
     const [expanded, setExpanded] = useState(false);
+    useEffect(() => {
+        setTimeout(() => {
+            setExpanded(0);
+        });
+    }, []);
     const cards = Strings.Experience.experienceCards.map((experience, ind) => (
         <ExperienceCard
             i={ind}
@@ -15,7 +20,7 @@ export default function Experience(props) {
             setExpanded={setExpanded}
             {...experience}
         />
-    ))
+    ));
     return (
         <Row className="experience-container" {...props} style={{minHeight: '50vh'}}>
             <Col lg={12}>

@@ -16,7 +16,7 @@ export default function Projects(props) {
                 {Strings.Projects.title}
               </Col>
             </Row>
-            <Row>
+            <Row className="pb-5">
               {Strings.Projects.cards.map((card, ind) => (
                   <ProjectCard
                       id={`project-card-${ind}`}

@@ -6,7 +6,7 @@ export default function Awards() {
     return (
         <Row>
             {Strings.Education.awards.cards.map(card => (
-                <Col lg={4}>
+                <Col lg={4} className="pb-2">
                     <Card style={{background: 'var(--tertiary)', height: '100%'}}>
                         <Card.Body>
                             <Card.Title>{card.name}</Card.Title>
