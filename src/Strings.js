@@ -2,7 +2,7 @@ const Strings = {
     name: 'Scott Malley',
     About: {
         title: 'About',
-        position: 'Developer, Researcher, Project Manager',
+        position: 'Developer, Researcher, Scientist',
         email: 'scott.r.malley@gmail.com',
         phone: null,
         address: 'Diemen, The Netherlands',
