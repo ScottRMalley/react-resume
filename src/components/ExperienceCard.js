@@ -1,6 +1,6 @@
 import React from 'react';
 import {Row, Col} from 'react-bootstrap';
-import {IoCaretForwardOutline} from 'react-icons/all';
+import {IoCaretForwardOutline} from 'react-icons/io5';
 import {AnimatePresence, motion} from 'framer-motion';
 import '../styles/components/ExperienceCard.css';
 
