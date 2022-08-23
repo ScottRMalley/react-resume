@@ -10,7 +10,7 @@ const Strings = {
     gitHub: 'https://github.com/scottrmalley',
     skype: 'skype:scott.malley1?chat',
     tagline: 'Hello, I\'m Scott, an applied blockchain engineer based in Amsterdam/Gent. I have experience in mathematics, physics and computation, with skills as both a project manager and full stack blockchain developer.',
-    skills: ['NodeJS', 'React', 'ReactNative', 'Python', 'Java', 'SpringBoot', 'Docker', 'Git', 'TensorFlow']
+    skills: ['Solidity', 'Golang', 'Ethereum', 'NodeJS', 'React', 'ReactNative', 'Python', 'Java', 'SpringBoot', 'Docker', 'Git']
   },
   Education: {
     title: 'Education',
