@@ -5,7 +5,7 @@ const Strings = {
     position: 'Developer, Researcher, Scientist',
     email: 'scott.r.malley@gmail.com',
     phone: null,
-    address: 'Gent, Belgium',
+    address: 'Amsterdam, The Netherlands',
     linkedIn: 'https://www.linkedin.com/in/scott-malley/',
     gitHub: 'https://github.com/scottrmalley',
     skype: 'skype:scott.malley1?chat',
@@ -73,15 +73,36 @@ const Strings = {
     title: 'Experience',
     experienceCards: [
       {
+        organization: 'Cantora Technologies',
+        location: 'Amsterdam, The Netherlands',
+        startDate: 'Oct. 2022',
+        endDate: 'Present',
+        position: 'Independent Software Engineer',
+        bullets: [
+          'Consulting, advice and implementation of software systems, with a focus on FinTech and Blockchain technologies'
+        ]
+      },
+      {
+        organization: 'Flagship',
+        location: 'Amsterdam, The Netherlands',
+        startDate: 'Oct. 2022',
+        endDate: 'Present',
+        position: 'Lead Blockchain Engineer',
+        bullets: [
+          'Leading the development of a new blockchain based DeFi platform',
+          'Responsible for the design and implementation of the blockchain architecture',
+        ]
+      },
+      {
         organization: 'Bux Crypto',
         location: 'Amsterdam, The Netherlands',
         startDate: 'Jul. 2021',
-        endDate: 'Present',
+        endDate: 'Oct. 2022',
         position: 'Applied Blockchain Engineer',
         bullets: [
-            'Developed and deployed a smart contract token bridge for EVM based blockchains',
-            'Advancing DeFi architectures, including backend, frontend, and Solidity based smart contracts',
-            'Focus on security, scalability, and stability for DeFi features'
+          'Developed and deployed a smart contract token bridge for EVM based blockchains',
+          'Advancing DeFi architectures, including backend, frontend, and Solidity based smart contracts',
+          'Focus on security, scalability, and stability for DeFi features'
         ]
       },
       {
